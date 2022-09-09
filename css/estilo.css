@@ -31,12 +31,9 @@ main {
 
 h1 {
   text-align: center;
-  color: 5px white bold; }
+  color: white; }
 
 /**************************************FOOTER**************************************/
-footer {
-  background-color: darkcyan; }
-
 /**************************************PAGINA HABILIDADES**************************************/
 ul {
   display: flex;
@@ -44,21 +41,9 @@ ul {
 
 div {
   display: inline-block;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center; }
 
 /*************************************PAGINA CURRICULUM**************************************/
-.texto1 {
-  background-color: 5px grey bold;
-  border: 5px; }
-  .texto1 p {
-    color: black bold 5px; }
-
-.texto2 {
-  background-color: 5px grey bold;
-  border: 5px; }
-  .texto2 p {
-    color: black bold 5px; }
-
 /**************************************MAQUETAS*************************************/
 /**************************************REDES**************************************/
