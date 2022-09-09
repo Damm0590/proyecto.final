@@ -1,13 +1,13 @@
-/*HTML FONDO*/
+/**************************************HTML FONDO**************************************/
 body {
   margin: 5px;
   padding: 5px; }
 
-/*HEADER*/
+/**************************************HEADER**************************************/
 header {
   background-color: black; }
 
-/*NAV BAR*/
+/**************************************NAV BAR**************************************/
 ul {
   display: flex;
   justify-content: space-between;
@@ -20,10 +20,24 @@ li {
   color: white;
   text-transform: uppercase; }
 
-/*FOOTER*/
-footer {
-  background-color: #273746; }
+a {
+  text-decoration: none;
+  color: white; }
 
+/**************************************MAIN**************************************/
+main {
+  background-color: orange;
+  color: black bold 5px; }
+
+h1 {
+  text-align: center;
+  color: 5px white bold; }
+
+/**************************************FOOTER**************************************/
+footer {
+  background-color: darkcyan; }
+
+/**************************************PAGINA HABILIDADES**************************************/
 ul {
   display: flex;
   align-content: center; }
@@ -31,5 +45,20 @@ ul {
 div {
   display: inline-block;
   justify-content: space-evenly;
-  align-items: center;
-  border: 5px #d35400 bold; }
+  align-items: center; }
+
+/*************************************PAGINA CURRICULUM**************************************/
+.texto1 {
+  background-color: 5px grey bold;
+  border: 5px; }
+  .texto1 p {
+    color: black bold 5px; }
+
+.texto2 {
+  background-color: 5px grey bold;
+  border: 5px; }
+  .texto2 p {
+    color: black bold 5px; }
+
+/**************************************MAQUETAS*************************************/
+/**************************************REDES**************************************/
