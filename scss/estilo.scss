@@ -1,4 +1,5 @@
 //COMPILADOR SASS
+@import url(variables.scss);
 
 //HTML FONDO
 /**************************************HTML FONDO**************************************/
@@ -66,7 +67,23 @@ div {
 
 //PAGINA CURRICULUM
 /*************************************PAGINA CURRICULUM**************************************/
-
-
+section {
+    .texto1 {
+    display: flex;
+    justify-content: left;
+    font-size: 15px;
+}
+    .texto2 {
+    display:  flex;
+    justify-content: right;
+    font: 15px;
+}
+}
 /**************************************MAQUETAS*************************************/
+
+p {
+    text-align: center;
+    font-size: 50px bold;
+    $colorPrinpipal
+}
 /**************************************REDES**************************************/
