@@ -33,6 +33,11 @@ h1 {
   text-align: center;
   color: white; }
 
+h1 .tituloPrincipal {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
 /**************************************FOOTER**************************************/
 /**************************************PAGINA HABILIDADES**************************************/
 ul {
@@ -42,22 +47,26 @@ ul {
 div {
   display: inline-block;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  flex-flow: column; }
 
 /*************************************PAGINA CURRICULUM**************************************/
 section .texto1 {
   display: flex;
-  justify-content: left;
-  font-size: 15px; }
+  justify-content: space-around;
+  font-size: 45px;
+  margin: 5px 5px 5px 5px; }
 
 section .texto2 {
   display: flex;
-  justify-content: right;
-  font: 15px; }
+  justify-content: space-around;
+  font-size: 45px;
+  margin: 5px 5px 5px 5px; }
 
 /**************************************MAQUETAS*************************************/
 p {
   text-align: center;
-  font-size: 50px bold; }
+  font-size: 50px bold;
+  color: black; }
 
 /**************************************REDES**************************************/

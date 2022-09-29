@@ -1,5 +1,5 @@
 //COMPILADOR SASS
-@import url(variables.scss);
+
 
 //HTML FONDO
 /**************************************HTML FONDO**************************************/
@@ -48,6 +48,12 @@ h1 {
     color: white;
 }
 
+h1 .tituloPrincipal {
+    display: flex;
+    text-align: center;   
+    justify-content: center;
+}
+
 //FOOTER
 /**************************************FOOTER**************************************/
 
@@ -63,6 +69,7 @@ div {
     display: inline-block;
     justify-content: space-around;
     align-items: center;
+    flex-flow: column;
 }
 
 //PAGINA CURRICULUM
@@ -70,13 +77,16 @@ div {
 section {
     .texto1 {
     display: flex;
-    justify-content: left;
-    font-size: 15px;
+    justify-content: space-around;
+    font-size: 45px;
+    margin: 5px 5px 5px 5px;
 }
     .texto2 {
     display:  flex;
-    justify-content: right;
-    font: 15px;
+    justify-content: space-around;
+    font-size: 45px;
+    margin: 5px 5px 5px 5px;
+
 }
 }
 /**************************************MAQUETAS*************************************/
@@ -84,6 +94,6 @@ section {
 p {
     text-align: center;
     font-size: 50px bold;
-    $colorPrinpipal
+    color: black;
 }
 /**************************************REDES**************************************/
