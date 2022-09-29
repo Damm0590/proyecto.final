@@ -56,8 +56,13 @@ h1 .tituloPrincipal {
 
 //FOOTER
 /**************************************FOOTER**************************************/
-
-
+div .redesF {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: end;
+    text-align: end;
+}
 //PAGINA HABILIDADES
 /**************************************PAGINA HABILIDADES**************************************/
 ul {
