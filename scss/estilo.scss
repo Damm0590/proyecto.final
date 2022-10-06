@@ -1,5 +1,7 @@
 //COMPILADOR SASS
 
+//VARIABLES
+@import "variables";
 
 //HTML FONDO
 /**************************************HTML FONDO**************************************/
@@ -8,11 +10,15 @@ body {
     padding: 5px;
 }
 
+html {
+    background-color: steelblue;
+}
+
 //HEADER
 /**************************************HEADER**************************************/
 
 header {
-    background-color: black;
+    background-color: $color-principal;
 }
 
 //NAV BAR
@@ -28,40 +34,44 @@ li {
     display: inline-block;
     align-items: center;
     justify-content: space-around;
-    color: white;
     text-transform: uppercase;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color:lawngreen;
+    text-transform: uppercase;
+    
 }
 
 //MAIN
 /**************************************MAIN**************************************/
 main {
-    background-color: orange;
+    background-color: darkslateblue;
     color: black bold 5px;
 }
 h1 {
+    color: lawngreen;
+    background-color: darkslateblue;
     text-align: center;
-    color: white;
-}
+    font-size: 35px;
+    font-weight: bold;
 
-h1 .tituloPrincipal {
-    display: flex;
-    text-align: center;   
-    justify-content: center;
+    &:hover {
+        background-color: darkmagenta;
+    }
 }
 
 //FOOTER
 /**************************************FOOTER**************************************/
-div .redesF {
+footer {
+    background-color: darkslateblue;
+    color:darkturquoise ;
+    font-size: small;
     display: flex;
-    background-color: black;
-    color: white;
-    justify-content: end;
-    text-align: end;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 //PAGINA HABILIDADES
 /**************************************PAGINA HABILIDADES**************************************/
